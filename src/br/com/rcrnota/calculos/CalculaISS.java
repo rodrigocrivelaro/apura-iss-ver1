@@ -1,6 +1,6 @@
-package br.com.mastersaf.calculos;
+package br.com.rcrnota.calculos;
 
-import br.com.mastersaf.modelo.NotaFiscal;
+import br.com.rcrnota.modelo.NotaFiscal;
 
 public class CalculaISS {
 		

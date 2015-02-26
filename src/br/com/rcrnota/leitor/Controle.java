@@ -1,13 +1,13 @@
-package br.com.mastersaf.leitor;
+package br.com.rcrnota.leitor;
 
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import br.com.mastersaf.calculos.CalculaISS;
-import br.com.mastersaf.gerador.GeradorXml;
-import br.com.mastersaf.modelo.Iss;
-import br.com.mastersaf.modelo.NotaFiscal;
+import br.com.rcrnota.calculos.CalculaISS;
+import br.com.rcrnota.gerador.GeradorXml;
+import br.com.rcrnota.modelo.Iss;
+import br.com.rcrnota.modelo.NotaFiscal;
 
 public class Controle {
 

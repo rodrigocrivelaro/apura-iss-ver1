@@ -1,4 +1,4 @@
-package br.com.mastersaf.modelo;
+package br.com.rcrnota.modelo;
 
 
 public class Iss {

@@ -1,8 +1,8 @@
-package br.com.mastersaf.leitor;
+package br.com.rcrnota.leitor;
 
 import java.util.Comparator;
 
-import br.com.mastersaf.modelo.NotaFiscal;
+import br.com.rcrnota.modelo.NotaFiscal;
 
 public class OrdenaLista implements Comparator<NotaFiscal> {
 

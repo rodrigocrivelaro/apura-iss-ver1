@@ -1,4 +1,4 @@
-package br.com.mastersaf.leitor;
+package br.com.rcrnota.leitor;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import br.com.mastersaf.modelo.NotaFiscal;
+import br.com.rcrnota.modelo.NotaFiscal;
 
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.xml.DomDriver;
@@ -22,13 +22,13 @@ public class LeitorXML {
 			String dir = "C:\\notasfiscais\\"; 
 			File diretorio = new File(dir); 
 			
-			//checa se o diretório existe
+			//checa se o diretï¿½rio existe
 			if(!diretorio.exists()) {
-				System.out.println("Diretório c:\\notasfiscais\\ não existe!");
+				System.out.println("Diretï¿½rio c:\\notasfiscais\\ nï¿½o existe!");
 			} else {
-				//checa se existe algum arquivo no diretório
+				//checa se existe algum arquivo no diretï¿½rio
 				if(diretorio.listFiles().length == 0) {
-					System.out.println("O diretório c:\\notasfiscais\\ está vazio!");
+					System.out.println("O diretï¿½rio c:\\notasfiscais\\ estï¿½ vazio!");
 				} else {	
 					File listaArquivos[] = diretorio.listFiles();
 										
@@ -37,7 +37,7 @@ public class LeitorXML {
 					for (File arquivo : listaArquivos) {
 						String nomeArquivoXML = arquivo.getName();
 						
-						//checa se o arquivo é um XML
+						//checa se o arquivo ï¿½ um XML
 						if(nomeArquivoXML.contains(".xml")) {
 
 							//carrega o arquivo XML para um objeto reader
@@ -66,7 +66,7 @@ public class LeitorXML {
     		e.printStackTrace();
     	}
 		
-		System.out.println("Não existem NF no diretório!");
+		System.out.println("Nï¿½o existem NF no diretï¿½rio!");
 		return null;
 	}
 }

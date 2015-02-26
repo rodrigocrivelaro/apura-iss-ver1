@@ -1,10 +1,10 @@
-package br.com.mastersaf.gerador;
+package br.com.rcrnota.gerador;
 
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-import br.com.mastersaf.modelo.Iss;
+import br.com.rcrnota.modelo.Iss;
 
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.xml.DomDriver;

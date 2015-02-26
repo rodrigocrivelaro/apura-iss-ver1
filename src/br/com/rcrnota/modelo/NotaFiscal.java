@@ -1,4 +1,4 @@
-package br.com.mastersaf.modelo;
+package br.com.rcrnota.modelo;
 
 
 public class NotaFiscal {
@@ -40,6 +40,6 @@ public class NotaFiscal {
 
 	@Override
 	public String toString() {
-		return "Emitente: " + this.emitente_cnpj + " - Data Emissão: " + this.data_emissao + " - Numero da NF: " + this.numero;
+		return "Emitente: " + this.emitente_cnpj + " - Data Emissï¿½o: " + this.data_emissao + " - Numero da NF: " + this.numero;
 	}
 }
