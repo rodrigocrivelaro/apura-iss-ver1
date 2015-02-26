@@ -1,6 +1,10 @@
 package br.com.rcrnota.modelo;
 
-
+/**
+ * Classe responsavel pela modelagem da NF
+ * 
+ * @author Rodrigo Crivelaro
+ */
 public class NotaFiscal {
 
 	private String emitente_cnpj;
@@ -9,8 +13,7 @@ public class NotaFiscal {
 	private int codigo_servico;
 	private double valor_total;
 
-	public NotaFiscal(String emitente_cnpj, int numero, String data_emissao,
-			int codigo_servico, double valor_total) {
+	public NotaFiscal(String emitente_cnpj, int numero, String data_emissao, int codigo_servico, double valor_total) {
 		this.emitente_cnpj = emitente_cnpj;
 		this.numero = numero;
 		this.data_emissao = data_emissao;

@@ -2,6 +2,11 @@ package br.com.rcrnota.calculos;
 
 import br.com.rcrnota.modelo.NotaFiscal;
 
+/**
+ * Classe respons�vel pelo c�lculo do ISS de cada NF
+ * 
+ * @author Rodrigo Crivelaro
+ */
 public class CalculaISS {
 		
 	public double calcularISS(NotaFiscal nota) {
